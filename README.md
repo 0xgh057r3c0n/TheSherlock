@@ -88,7 +88,7 @@ This will ensure that all the necessary packages are installed for the Web Scann
 ## Example
 
 ```bash
-$ python web_scanner.py
+$ python TheSherlock.py
 [+] Enter the URL to scan (e.g., adtu.in): adtu.in
 ```
 
