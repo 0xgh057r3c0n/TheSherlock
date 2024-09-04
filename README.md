@@ -50,8 +50,8 @@ The Sherlock Tool is a comprehensive utility for scanning and analyzing websites
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/0xgh057r3c0n/TheSherlock.git
+   cd TheSherlock
    ```
 
 2. **Install Dependencies:**
