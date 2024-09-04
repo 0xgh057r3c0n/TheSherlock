@@ -74,7 +74,7 @@ This will ensure that all the necessary packages are installed for the Web Scann
 1. **Run the script:**
 
    ```bash
-   python web_scanner.py
+   python TheSherlock.py
    ```
 
 2. **Follow the prompts:**
