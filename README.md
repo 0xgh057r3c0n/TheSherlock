@@ -62,7 +62,7 @@ The Sherlock Tool is a comprehensive utility for scanning and analyzing websites
    pip install -r requirements.txt
    ```
 
-This will ensure that all the necessary packages are installed for the Web Scanner Tool to function correctly.
+This will ensure that all the necessary packages are installed for The Sherlock Tool to function correctly.
 
 3. **Download the GeoLite2-City database:**
 
