@@ -54,11 +54,15 @@ The Sherlock Tool is a comprehensive utility for scanning and analyzing websites
    cd <repository_directory>
    ```
 
-2. **Install required libraries:**
+2. **Install Dependencies:**
+
+   Users can install all required libraries by running:
 
    ```bash
-   pip install requests beautifulsoup4 python-nmap whois geoip2 colorama dnspython
+   pip install -r requirements.txt
    ```
+
+This will ensure that all the necessary packages are installed for the Web Scanner Tool to function correctly.
 
 3. **Download the GeoLite2-City database:**
 
