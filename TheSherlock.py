@@ -36,15 +36,19 @@ ___________.__             _________.__                 .__                 __
 def print_banner():
     print(Fore.BLUE + BANNER)
 
-def crawl_links(url):
+def crawl_links(base_url):
     try:
-        response = requests.get(url)
+        # Get the page content
+        response = requests.get(base_url)
         soup = BeautifulSoup(response.text, 'html.parser')
-        links = [link.get('href') for link in soup.find_all('a', href=True)]
+        
+        # Extract all the links and convert them into full URLs
+        links = [urljoin(base_url, link.get('href')) for link in soup.find_all('a', href=True)]
         return links
     except Exception as e:
         print(Fore.RED + f"[+] Error crawling links: {e}")
         return []
+
 
 def filter_links_with_parameters(links):
     links_with_params = [link for link in links if '?' in link]
